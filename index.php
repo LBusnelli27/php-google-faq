@@ -44,7 +44,14 @@
 
 <body>
     <header>
-
+        <img class="logo-header" src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="Google logo">
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li id="faq-li">Domande frequenti</li>
+        </ul>
     </header>
 
     <main>
