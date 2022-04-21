@@ -35,9 +35,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google FAQ</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    
+    <header>
+
+    </header>
+
+    <main>
+        <div class="faq-container">
+            <?php foreach ($faqsArray as $key => $value) { ?>
+                <h2><?php echo $value['question']; ?></h2>
+                <p><?php echo $value['answer']; ?></p>
+            <?php } ?>
+        </div>
+    </main>
 </body>
 </html>
